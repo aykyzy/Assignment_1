@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <title>Adam Khan's Portfolio - Contact</title>
+    </head>
+    <body>
+        <div id="wrapper">
+            <header>
+                <h1>Contact</h1>
+                <nav>
+                    <a href="about.html">About</a> |
+                    <a href="project.html">My Projects</a> |
+                    <a href="home.html">Home</a>
+                </nav>
+            </header>
+            <div id="form">
+                    <h2>Contact me if you'd like to provide feedback or have comments!</h2>
+                <form action="mailto:adam.khan3@ontariotechu.net?subject=Feedback from website" enctype="text/plain" method="post" name="FeedbackForm">
+                    <p>
+                        <label for="Fname">First name:</label>
+                        <input type="text" name="Fname" size="20" placeholder="Enter your first name" required>
+                    </p>
+                    <p>
+                        <label for="Lname">Last name:</label>
+                        <input type="text" name="Lname" size="20" placeholder="Enter your last name" required>
+                    </p>
+                     <p>
+                        <label for="Email">Email address:</label>
+                        <input type="email" name="Email" size="20" placeholder="Enter your email address" required>
+                    </p>
+                    <p>
+                        <label for="Phone">Phone number:</label>
+                        <input type="tel" name="phone" size="20" placeholder="Enter your phone number" required>
+                    </p>
+                    <p>
+                        <label for="comments">Comments:</label>
+                        <br>
+                        <textarea name="comments" cols="40" rows="20"></textarea>
+                        <br> <br>
+                        <input type="reset" value="Reset">
+                        <input type="submit" value="Submit">
+                     </p>
+                </form>  
+            </div>
+            <footer>
+                <p>adam.khan3@ontariotechu.net</p>
+                <h5>&copy; 2025 by Adam Khan</h5>
+            </footer>
+        </div>
+    </body>    
+</html>
