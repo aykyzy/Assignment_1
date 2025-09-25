@@ -9,30 +9,30 @@ body {
     background: linear-gradient(to right, #10BFEB 0%,#8C9CED 100%);
 }
 
-header{
+header, footer{
     text-align: center;
     background: #2F8BED;
     color: white;
-    padding-top: 5px;
-    padding-bottom: 5px;
-}
-
-footer{
-    text-align: center;
-    background: #2F8BED;
-    color: white;
-    padding-top: 5px;
-    padding-bottom: 5px;
+    padding: 5px;
+    box-sizing: border-box;  
+    word-wrap: break-word;    
+    overflow-wrap: break-word;
 }
 
 #wrapper {
     width: 80%;
-    height: 800px;
     margin-left: auto;
     margin-right: auto;
     background-color: #4D30F0;
     color:white;
     text-align: center;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
 }
 
 #form{
