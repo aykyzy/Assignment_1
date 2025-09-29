@@ -29,7 +29,7 @@ header, footer{
 }
 
 img {
-    max-width: 20%;
+    max-width: 30%;
     height: auto;
     display: block;
     margin: 0 auto;
@@ -38,7 +38,7 @@ img {
 #form{
     padding: 5px;
     height: 700px;
-    background-color: #4D30F0;
+    background: linear-gradient(121deg, #4D30F0, #10BFEB)
 }
 
 #left-column{
@@ -62,4 +62,9 @@ video {
     background-color: black;
     border:2px white solid; 
     box-shadow: 10px 10px 5px black;
+}
+
+article {
+    padding: 10px;          
+    box-sizing: border-box; 
 }

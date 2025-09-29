@@ -1,18 +1,18 @@
 @charset "UTF-8";
-/*Color Scheme:#2F8BED, #4D30F0, #0027EB, #10BFEB, #7807F0, #8C9CED*/
+/*Color Scheme: #F7BF52, #F7E752, #F7D352, #F7A852, #FA3346 */
 body {
     font-family: Arial, Helvetica, sans-serif;
-    background: #10BFEB;
-    background: -moz-linear-gradient(left,#10BFEB 0%,#8C9CED);
-    background: -webkit-linear-gradient(left, #10BFEB 0%,#8C9CED 100%); 
-    background: -o-linear-gradient(left, #10BFEB 0%,#8C9CED 100%); 
-    background: linear-gradient(to right, #10BFEB 0%,#8C9CED 100%);
+    background: #F7BF52;
+    background: -moz-linear-gradient(left,#F7BF52 0%,#F7E752);
+    background: -webkit-linear-gradient(left, #F7BF52 0%,#F7E752 100%); 
+    background: -o-linear-gradient(left, #F7BF52 0%,#F7E752 100%); 
+    background: linear-gradient(to right, #F7BF52 0%,#F7E752 100%);
 }
 
 header, footer{
     text-align: center;
-    background: #2F8BED;
-    color: white;
+    background: #F7A852;
+    color: black;
     padding: 5px;
     box-sizing: border-box;  
     word-wrap: break-word;    
@@ -23,13 +23,13 @@ header, footer{
     width: 80%;
     margin-left: auto;
     margin-right: auto;
-    background-color: #4D30F0;
-    color:white;
+    background-color: #F7D352;
+    color:black;
     text-align: center;
 }
 
 img {
-    max-width: 20%;
+    max-width: 60%;
     height: auto;
     display: block;
     margin: 0 auto;
@@ -38,5 +38,45 @@ img {
 #form{
     padding: 5px;
     height: 700px;
-    background-color: #4D30F0;
+    background: linear-gradient(121deg, #F7D352, #FA3346)
+}
+
+#left-column{
+    float: left;
+    width: 50%;
+    background-color: #F7D352;
+    height:400px;
+}
+
+#right-column{
+    float:right;
+    width: 50%;
+    height:auto;
+    background-color: #F7D352;
+    height:400px;
+}
+
+video {
+    width: 50%;
+    height: 50%;
+    padding:15px;
+    margin: 15px;
+    background-color: black;
+    border:2px white solid; 
+    box-shadow: 10px 10px 5px black;
+}
+
+@media (max-width:480px){
+    #left-column,
+    #right-column {
+        float:none;
+        width:100%;
+        height:auto;
+        box-sizing:border-box;
+    }
+}
+
+article {
+    padding: 10px;          
+    box-sizing: border-box; 
 }
