@@ -1,3 +1,4 @@
+<!--Stating document type, listing all viewports (desktop, tablet, phone), adding title for page-->
 <!DOCTYPE html>
 <html>
     <head>
@@ -8,8 +9,10 @@
         <link rel="stylesheet" type="text/css" href="phone.css" media="only screen and (max-width:480px)">
         <title>Adam Khan's Portfolio - About</title>
     </head>
+<!--Body tag used to contain all of my main code, created a div with id so I can edit in css, also left column and right column to seperate text-->
     <body>
         <div id="wrapper">
+<!--Used header tag as my header for all html files, as well as nav so I can navigate throughout my website-->
             <header>
                 <h1>About Adam Khan</h1>
                 <nav>
@@ -19,6 +22,7 @@
                 </nav>
             </header>
             <div id="left-column">
+<!--Figure tag used to show an image, with figcaption underneath it as the caption of the image-->
                 <figure>
                     <img src="IMG_8904.jpg" alt="">
                     <figcaption>
@@ -31,11 +35,12 @@
                 </figure>
             </div>
             <div id="right-column">
+<!--Video tag used to implement video of size 320x320, with added controls, video playing in a loop, video preloaded and a poster as the thumbnail-->
                 <video id="video" width="320" height="320" controls loop preload="auto" poster="video.png">
                     <source src="IMG_8906.mp4" type="video/mp4">
                 </video>
             </div>
-            
+<!--Footer tag used to create my websites footer, that has my email as well as copywrite information-->
               <footer>
                 <p>Email: adam.khan3@ontariotechu.net</p>
                 <h5>&copy; 2025 by Adam Khan</h5>

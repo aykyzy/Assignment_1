@@ -1,5 +1,6 @@
 @charset "UTF-8";
 /*Color Scheme: #F7BF52, #F7E752, #F7D352, #F7A852, #FA3346 */
+/*Linear gradient used with my provided color scheme */
 body {
     font-family: Arial, Helvetica, sans-serif;
     background: #F7BF52;
@@ -9,6 +10,7 @@ body {
     background: linear-gradient(to right, #F7BF52 0%,#F7E752 100%);
 }
 
+/*Align text middle, choosing color scheme, padding for aesthetic, word-wrap and overflow-wrap allows break line in text */
 header, footer{
     text-align: center;
     background: #F7A852;
@@ -19,6 +21,7 @@ header, footer{
     overflow-wrap: break-word;
 }
 
+/*Setting width to only 80%, auto margins for aesthetic, color scheme added and text aligned */
 #wrapper {
     width: 80%;
     margin-left: auto;
@@ -28,6 +31,7 @@ header, footer{
     text-align: center;
 }
 
+/*Setting max image size to be 30%, so it does not go outside of my div, resized in different css files due to screen size */
 img {
     max-width: 60%;
     height: auto;
@@ -35,12 +39,14 @@ img {
     margin: 0 auto;
 }
 
+/*CSS code for my form, added padding and set height for aesthetic, as well as an angular gradient */
 #form{
     padding: 5px;
     height: 700px;
     background: linear-gradient(121deg, #F7D352, #FA3346)
 }
 
+/*Floating all objects in left column to left, setting its width to half size (responsive), and setting height and color */
 #left-column{
     float: left;
     width: 50%;
@@ -48,6 +54,7 @@ img {
     height:400px;
 }
 
+/*Floating all objects in right column to right, setting its width to half size (responsive), and setting height and color */
 #right-column{
     float:right;
     width: 50%;
@@ -56,6 +63,7 @@ img {
     height:400px;
 }
 
+/*Padding and margins for aesthetic, changed background color to black and added a border with box shadow for aesthetic */
 video {
     width: 50%;
     height: 50%;
@@ -66,6 +74,7 @@ video {
     box-shadow: 10px 10px 5px black;
 }
 
+/*Resizing my media depending on viewport, in order for it to look appealing and not flood the entire page if screen size is smaller. Changing float to none so they can be vertical if needed (smaller device) */
 @media (max-width:480px){
     #left-column,
     #right-column {
@@ -76,6 +85,7 @@ video {
     }
 }
 
+/*Formatting my article in projects, added padding and box-sizing so text does not go outside of its section */
 article {
     padding: 10px;          
     box-sizing: border-box; 
